@@ -13,4 +13,5 @@ public class ColorLogger {
     public void logError(String logging) {
         LOGGER.severe("\u001B[31m" + logging + "\u001B[0m");
     }
+
 }
